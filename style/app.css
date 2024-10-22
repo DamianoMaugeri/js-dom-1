@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(5, 28, 90);
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 999px;
+    width: 150px;
+    font-size: 20px;
+}
+
+h1{
+    padding: 40px 0 ;
+    color: white;
+}
+
+.lamp-off{
+    transform: translateX(20px);
+}
+
+
+.active {
+    background-color: rgb(5, 28, 90);
+    color: white;
+}
+
+
+
+.lamp-on{
+    transform: translateX(-20px);
+
+}
+
