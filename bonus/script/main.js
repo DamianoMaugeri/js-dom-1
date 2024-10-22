@@ -16,8 +16,8 @@ const TEXT_ON = 'SPEGNI';
 const TEXT_OFF = 'ACCENDI';
 const BACKGROUND_ON = 'rgb(88, 183, 228)';
 const BACKGROUND_OFF = 'rgb(5, 28, 90)';
-const BUTTON_TEXT_COLOR_ON = 'black';
-const BUTTON_TEXT_COLOR_OFF = 'white';
+const TEXT_COLOR_ON = 'black';
+const TEXT_COLOR_OFF = 'white';
 
 
 
@@ -40,13 +40,13 @@ if (lampStatus) {
     buttonText = TEXT_ON
     imgContent = IMG_LAMP_ON
     background = BACKGROUND_ON
-    color = BUTTON_TEXT_COLOR_ON
+    color = TEXT_COLOR_ON
     elementLampadina.classList.add('lamp-on')
 
 } else {
     buttonText = TEXT_OFF
     background = BACKGROUND_OFF
-    color = BUTTON_TEXT_COLOR_OFF
+    color = TEXT_COLOR_OFF
     imgContent = IMG_LAMP_OFF
     elementLampadina.classList.add('lamp-off')
 }
@@ -64,14 +64,14 @@ onOffButton.addEventListener('click', function () {
         buttonText = TEXT_ON
         imgContent = IMG_LAMP_ON
         background = BACKGROUND_ON
-        color = BUTTON_TEXT_COLOR_ON
+        color = TEXT_COLOR_ON
         elementLampadina.classList.add('lamp-on')
         elementLampadina.classList.remove('lamp-off')
 
     } else {
         buttonText = TEXT_OFF
         background = BACKGROUND_OFF
-        color = BUTTON_TEXT_COLOR_OFF
+        color = TEXT_COLOR_OFF
         imgContent = IMG_LAMP_OFF
         elementLampadina.classList.add('lamp-off')
         elementLampadina.classList.remove('lamp-on')
