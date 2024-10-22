@@ -24,7 +24,7 @@ const BUTTON_TEXT_COLOR_OFF = 'white';
 
 
 // mi creo una variabile che indica lo stato della lampadina
-let lampStatus = true;
+let lampStatus = false;
 
 // Inizializzazione
 let buttonText;
